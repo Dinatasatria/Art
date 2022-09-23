@@ -1,4 +1,4 @@
-import requests, sys, shlex
+ permintaan impor , sys , shlex
 drak = sys.argv[1];
 params = {
     'host': drak,
