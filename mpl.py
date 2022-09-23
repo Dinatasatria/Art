@@ -1,14 +1,14 @@
- permintaan  impor , sys , waktu
+import requests,sys,time
 from requests import post
 from requests import get
 nomor = sys.argv[1]
 work = f"""
-[»] *Tools By MR_DARK*
+[»] *Tools By ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ*
 *✔* *Spam SMS* *+62{nomor}* *Success* :)
 *Message:* 1 MPL otp spam sended
 """
 gagal = f"""
-[»] *Tools By MR_DARK*
+[»] *Tools By ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ*
 *✘* *Spam SMS* *+62{nomor}* *gagal* :(
 *Message:* Unknown error code
 """
