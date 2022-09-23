@@ -1161,12 +1161,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://github.com/Dinatasatria/art'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 81353089407'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1200,12 +1200,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://github.com/Dinatasatria/art'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 81353089407'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1670,7 +1670,7 @@ break
             }
             break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
+                if (!Number(text)) throw `Example : ${prefix + command} 6287744410374`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -1684,7 +1684,7 @@ break
             }
             break
             case 'ramalanjodoh': case 'ramaljodoh': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} arta, 29, 11, 2004, Selima, 16, 08, 2005`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1692,7 +1692,7 @@ break
             }
             break
             case 'ramalanjodohbali': case 'ramaljodohbali': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} arta, 29, 11, 2004, Selima, 16, 08, 2005`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1700,7 +1700,7 @@ break
             }
             break
             case 'suamiistri': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} arta, 29, 11, 2004, Selima, 16, 08, 2005`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1708,7 +1708,7 @@ break
             }
             break
             case 'ramalancinta': case 'ramalcinta': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} arta, 29, 11, 2004, Selima, 16, 08, 2005`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1716,14 +1716,14 @@ break
             }
             break
             case 'artinama': {
-                if (!text) throw `Example : ${prefix + command} Dika Ardianta`
+                if (!text) throw `Example : ${prefix + command} Arta Satriadi`
                 let anu = await primbon.arti_nama(text)
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
             }
             break
             case 'kecocokannama': case 'cocoknama': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} arta, 29, 11, 2004`
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1731,7 +1731,7 @@ break
             }
             break
             case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
-                if (!text) throw `Example : ${prefix + command} Dika|Novia`
+                if (!text) throw `Example : ${prefix + command} Arta|Selima`
                 let [nama1, nama2] = text.split`|`
                 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1755,7 +1755,7 @@ break
             }
             break
             case 'rejeki': case 'rezeki': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rejeki_hoki_weton(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1763,7 +1763,7 @@ break
             }
             break
             case 'pekerjaan': case 'kerja': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command}29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.pekerjaan_weton_lahir(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1771,7 +1771,7 @@ break
             }
             break
             case 'ramalannasib': case 'ramalnasib': case 'nasib': {
-                if (!text) throw `Example : 7, 7, 2005`
+                if (!text) throw `Example : 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.ramalan_nasib(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1779,7 +1779,7 @@ break
             }
             break
             case 'potensipenyakit': case 'penyakit': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command}29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.cek_potensi_penyakit(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1787,7 +1787,7 @@ break
             }
             break
             case 'artitarot': case 'tarot': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.arti_kartu_tarot(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1795,7 +1795,7 @@ break
             }
             break
             case 'fengshui': {
-                if (!text) throw `Example : ${prefix + command} Dika, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+                if (!text) throw `Example : ${prefix + command} Arta, 1, 2004\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
                 let [nama, gender, tahun] = text.split`,`
                 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1803,7 +1803,7 @@ break
             }
             break
             case 'haribaik': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.petung_hari_baik(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1811,7 +1811,7 @@ break
             }
             break
             case 'harisangar': case 'taliwangke': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command}29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.hari_sangar_taliwangke(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1819,7 +1819,7 @@ break
             }
             break
             case 'harinaas': case 'harisial': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1827,7 +1827,7 @@ break
             }
             break
             case 'nagahari': case 'harinaga': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1835,7 +1835,7 @@ break
             }
             break
             case 'arahrejeki': case 'arahrezeki': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} 29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1843,7 +1843,7 @@ break
             }
             break
             case 'peruntungan': {
-                if (!text) throw `Example : ${prefix + command} DIka, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
+                if (!text) throw `Example : ${prefix + command} Arta, 29, 11, 2004, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
                 let [nama, tgl, bln, thn, untuk] = text.split`,`
                 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1851,7 +1851,7 @@ break
             }
             break
             case 'weton': case 'wetonjawa': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command}29, 11, 2004`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.weton_jawa(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1859,7 +1859,7 @@ break
             }
             break
             case 'sifat': case 'karakter': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} Arta, 29, 11, 2004`
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1867,7 +1867,7 @@ break
             }
             break
             case 'keberuntungan': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                if (!text) throw `Example : ${prefix + command} Arta, 29, 11, 2004`
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1891,7 +1891,7 @@ break
             }
             break
             case 'zodiak': case 'zodiac': {
-                if (!text) throw `Example : ${prefix+ command} 7 7 2005`
+                if (!text) throw `Example : ${prefix+ command} 29 11 2004`
                 let zodiak = [
                     ["capricorn", new Date(1970, 0, 1)],
                     ["aquarius", new Date(1970, 0, 20)],
@@ -2537,7 +2537,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         if (stdout) return m.reply(stdout)
                     })
                     	} else {
-                    	m.reply(`Masukkan nomor contoh\n${prefix+command} +6281327441039\natau\nTag nomor dengan cara\n${prefix+command} @mr_dark`)
+                    	m.reply(`Masukkan nomor contoh\n${prefix+command} +6281353089407\natau\nTag nomor dengan cara\n${prefix+command} @mr_dark`)
                     	}
              }
 	    break
@@ -2553,7 +2553,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         if (stdout) return m.reply(stdout)
                     })
                     	} else {
-                    	m.reply(`Masukkan nomor contoh\n${prefix+command} 081327441039\natau\nTag nomor dengan cara\n${prefix+command} @mr_dark`)
+                    	m.reply(`Masukkan nomor contoh\n${prefix+command} 087744410374\natau\nTag nomor dengan cara\n${prefix+command} @mr_dark`)
                     	}
              }
 	    break
@@ -2600,7 +2600,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'texttosound': case 'tts':{
-                 if (!text) throw `Example: *${prefix + command} Perdi Gay*`
+                 if (!text) throw `Example: *${prefix + command} Arta Gay*`
                  m.reply(mess.wait)
                  exec("python3 texttosound.py "+text)
                  audio = "p.mp3"
@@ -2608,7 +2608,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'CaptchaGenerator':{
-                 if (!text) throw `Example: *${prefix + command} Perdi Gay*`
+                 if (!text) throw `Example: *${prefix + command} Arta Gay*`
                  m.reply(mess.wait)
                  exec("pip install captcha && python3 captcha.py "+text)
                  hisoka.sendMessage(m.chat, {image: {url: "CAPTCHA.png"}, caption: 'Captcha Generator Text Success'})
@@ -2624,7 +2624,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'instafollower':{
-                 if (!text) throw `Example: *${prefix + command} official_of_mrdark*`
+                 if (!text) throw `Example: *${prefix + command}ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ*`
                  m.reply(mess.wait)
                  exec("python3 qlizz.py "+text, (err, stdout) => {
                         if(err) return m.reply(err)
@@ -2633,7 +2633,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'SsWeb': case 'ssweb': case 'Ssweb': case 'ScreenshotWeb': case 'screenshotweb':{
-                 if (!text) throw `Example: *${prefix + command} https://github.com/DARK-02*`
+                 if (!text) throw `Example: *${prefix + command} https://github.com/Dinatasatria*`
                  m.reply(mess.wait)
                  axios.get('https://api.pikwy.com/', {
                                                params: {
@@ -2652,7 +2652,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'igstalk':{
-                 if (!text) throw `Example: *${prefix + command} official_of_mrdark*`
+                 if (!text) throw `Example: *${prefix + command} ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ*`
                  m.reply(mess.wait)
                  exec("python3 igstalk.py "+text, (err, stdout) => {
                         if(err) return m.reply(err)
@@ -2733,9 +2733,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 
 ════════════════════
 *What the updated:* _Added ttp command, added Screenshotweb command, added translate command, added webinfo command, added captcha generator, added text to sound command, update apikey, added copy web code command, added free instagram follower command, added instagram stalker_
-*Status:* _https://dark-02.github.io/DarkBotStatus.html_
-*Join:* _https://chat.whatsapp.com/GfDPRMb91AD8UXpD2jbJVD_
-*Who's Updated?:* _MrDark_
+*Status:* _https://github.com/Dinatasatria?tab=repositories
+*Join:* _https://chat.whatsapp.com/GMZcWYhairfIKOYYx0uxCJ
+*Who's Updated?:* ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ
 ════════════════════
 
 *« DarkScript Menu »*
@@ -3018,7 +3018,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             }, {
                                 callButton: {
                                     displayText: 'Phone',
-                                    phoneNumber: '+62 813-2744-1039'
+                                    phoneNumber: '+62 81353089407'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3036,7 +3036,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                                     id: 'sc'
                                 }
                             }]
-                        hisoka.send5ButImg(m.chat, anu, 'DarkBot ~ Multi Device', global.thumb, btn)
+                        hisoka.send5ButImg(m.chat, anu, 'ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ ~ Multi Device', global.thumb, btn)
                      }
             break
             default:
