@@ -1,5 +1,5 @@
-# Scripted By Mr_Dark 2022
-# ingatlah bahwa aldo itu gay -_-
+# Scripted By ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ
+# ingatlah bahwa arta itu gay -_-
 
 
 
