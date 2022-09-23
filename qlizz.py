@@ -1,5 +1,5 @@
-# Scripted By Mr_Dark 2022
-# ingatlah bahwa aldo itu gay -_-
+# Scripted By ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ
+# ingatlah bahwa arta itu gay -_-
 
 
 
@@ -31,7 +31,7 @@ perdigaay = random.choice(string.ascii_letters)
 perdigaa = random.choice(string.ascii_letters)
 #user = input("username akun tumbal\ninput> ")
 #passw = input("password akun tumbal\ninput> ")
-user = f"{perdigaa}subscribe_mrdark_{perdigaay}{perdigay}"
+user = f"{perdigaa}subscribe_ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ_{perdigaay}{perdigay}"
 passw = f"a{perdigaa}j{perdigaay}wnjn{perdigay}"
 #XenziGay = input("username yang ingin di tambah follower nya, tanpa @\ninput> ")
 XenziGay = sys.argv[1];
