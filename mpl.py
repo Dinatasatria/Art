@@ -1,4 +1,4 @@
-import requests,sys,time
+ permintaan  impor , sys , waktu
 from requests import post
 from requests import get
 nomor = sys.argv[1]
