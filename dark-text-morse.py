@@ -89,7 +89,7 @@ def decrypt(message):
 
 # Hard-coded driver function to run the program
 def main():
-    print ("_Copyright 2022 Mr_Dark_")
+    print ( "_Hak Cipta 2022 ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ" )
     print ("======================")
     print ("")
     print (f"*Normal Text*: _{bruh}_")
