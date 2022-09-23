@@ -1,4 +1,4 @@
- permintaan impor , sys , shlex
+import requests, sys, shlex
 drak = sys.argv[1];
 params = {
     'host': drak,
@@ -17,7 +17,7 @@ a = response.split("<td>")[38];
 daerah = a.split("</td>")[0];
 print (f"""
 -----------------
-© DarkBotMD 2022
+© ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ
 -----------------
 ISP: {b}
 Organization: {org}
