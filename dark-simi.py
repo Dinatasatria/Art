@@ -1,33 +1,33 @@
 import os,sys,requests,shlex
 from requests import get
-mr_dark = " ".join(map(shlex.quote, sys.argv[1:]))
-jika  mr_dark  ==  'gelap' :
-	print ( '_simi bot_: ganteng' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'wira' :
-	print ( '_simi bot_: wibu' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'kiw' :
-	print ( '_simi bot_: kiw itu bocil yang suka nonton bokev' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'pemilik' :
-	print ( '_simi bot_: dark-02' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'aldo' :
-	cetak ( '_simi bot_: bocah prik' )
-	cetak ('ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'bayu' :
-	print ( '_simi bot_: sepedanya gelap' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'diam' :
-	print ( '_simi bot_: sepedanya gelap' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'sofwan' :
-	print ( '_simi bot_: kang ngebot discord' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
-elif  mr_dark  ==  'aushine' :
-	print ( '_simi bot_: orang random yang suka baca pesan' )
-	cetak ( 'ᴄᴏᴘʏʀɪɢʜᴛ _ᴅᴀʀᴋ' )
+ArtaBotz = " ".join(map(shlex.quote, sys.argv[1:]))
+if Arta_Botz == 'Arta':
+	print('_simi bot_: ganteng')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'Satriadi':
+	print('_simi bot_: wibu')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'Asep':
+	print('_simi bot_: kiw itu bocil yang suka nonton bokev')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'owner':
+	print('_simi bot_: Arta_Botz')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'cecep':
+	print('_simi bot_: bocah prik')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'Selima':
+	print('_simi bot_: sepeda nya dark')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'silent':
+	print('_simi bot_: sepeda nya dark')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'sofwan':
+	print('_simi bot_: kang ngebot discord')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
+elif Arta_Botz == 'Selima':
+	print('_simi bot_: orang random yang suka read pesan')
+	print('ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ ᴀʀᴛᴀ sᴀᴛʀɪᴀᴅɪ')
 else:
 	#mr_dark_url = f'https://api.simsimi.net/v2/?text={mr_dark}&lc=id'
 	#dark = requests.get(mr_dark_url)
